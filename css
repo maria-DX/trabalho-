@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Currículo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background: #f5f5f5;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    h1, h2 {
+      margin-top: 20px;
+      color: #333;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Foto -->
+    <img src="foto.jpg" alt="Foto do candidato">
+
+    <!-- Nome e Sobre -->
+    <h1>Seu Nome Completo</h1>
+    <p><strong>Sobre:</strong> Breve descrição sobre você, suas habilidades e objetivos profissionais.</p>
+
+    <!-- Contatos -->
+    <h2>Contato</h2>
+    <ul>
+      <li>Email: <a href=mariaed">seuemail@exemplo.com</a></li>
+      <li>Telefone: (00) 00000-0000</li>
+      <li>Cidade/Estado</li>
+    </ul>
+
+    <!-- Experiências -->
+    <h2>Experiências</h2>
+    <ul>
+      <li><strong>Empresa X</strong> – Cargo (2022 - atual)</li>
+      <li><strong>Empresa Y</strong> – Cargo (2020 - 2022)</li>
+    </ul>
+
+    <!-- Formação -->
+    <h2>Formação</h2>
+    <ul>
+      <li>Graduação em ... – Universidade (2021 - 2024)</li>
+      <li>Curso Técnico em ... – Escola Técnica (2018 - 2020)</li>
+    </ul>
+
+    <!-- Links -->
+    <h2>Redes Sociais</h2>
+    <ul>
+      <li><a href="https://linkedin.com/in/seuusuario" target="_blank">LinkedIn</a></li>
+      <li><a href="https://instagram.com/seuusuario" target="_blank">Instagram</a></li>
+    </ul>
+  </div>
+</body>
+</html>
